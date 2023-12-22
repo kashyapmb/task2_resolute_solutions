@@ -1,0 +1,45 @@
+.Information {
+	padding: 0 10rem;
+}
+.side_heading {
+	font-size: 2rem;
+	font-weight: 600;
+}
+.side_content {
+	font-size: 0.9rem;
+	opacity: 0.8;
+	line-height: 1.3rem;
+}
+
+.btn_book_a_demo2 {
+	color: #002168;
+	border: 0.15rem solid #031d4c;
+	border-radius: 1rem 0 0 0;
+	width: 9rem;
+	padding: 0.4rem 1rem 0.4rem 1rem;
+	cursor: pointer;
+    font-weight: 700;
+    opacity: 1;
+}
+.btn_book_a_demo2 span {
+	cursor: pointer;
+	display: inline-block;
+	position: relative;
+	transition: 0.5s;
+}
+.btn_book_a_demo2 span:after {
+	content: ">";
+	position: absolute;
+	opacity: 1;
+	top: 0;
+	right: -10px;
+	transition: 0.3s;
+}
+.btn_book_a_demo2:hover span:after {
+	right: -18px;
+}
+
+.display_img{
+    display: flex;
+    align-items: center;
+}

@@ -1,0 +1,12 @@
+@font-face {
+  font-family: 'Avenir Next LT Pro Demi';
+  /* src: url('../public/font/AvenirLTProBlack.otf') format('opentype'); */
+}
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@500&display=swap');
+
+* {
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+	font-family: "Avenir Next LT Pro Demi", "Montserrat", sans-serif;
+}

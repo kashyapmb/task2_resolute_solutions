@@ -1,0 +1,67 @@
+.bg_header {
+	background: url("../../public/images/bg_header.png");
+	background-position: center;
+	background-repeat: no-repeat;
+	background-size: cover;
+	padding: 2rem 8rem;
+}
+
+.logo_img {
+	width: 8rem;
+	margin-left: 2rem;
+	cursor: pointer;
+}
+.book_a_demo_navbar {
+	border: 2px solid white;
+	padding: 0.5rem 1rem;
+	border-radius: 1.5rem 0 0 0;
+}
+.nav_links {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	gap: 3rem;
+	color: white;
+}
+.nav_links p {
+	cursor: pointer;
+}
+.header_info {
+	color: white;
+	padding: 5rem 0;
+	cursor: default;
+}
+.header_info h1 {
+	font-size: 2.5rem;
+	font-weight: 600;
+	margin: 0 0 2rem 0;
+}
+.header_info p {
+	font-size: 0.8rem;
+	margin: 0 0 2rem 0;
+}
+.btn_book_a_demo {
+	color: white;
+	border: 2px solid white;
+	border-radius: 1rem 0 0 0;
+	width: 8.3rem;
+	padding: 0.5rem 1rem 0.5rem 1rem;
+	cursor: pointer;
+}
+.btn_book_a_demo span {
+	cursor: pointer;
+	display: inline-block;
+	position: relative;
+	transition: 0.5s;
+}
+.btn_book_a_demo span:after {
+	content: ">";
+	position: absolute;
+	opacity: 1;
+	top: 0;
+	right: -10px;
+	transition: 0.3s;
+}
+.btn_book_a_demo:hover span:after {
+	right: -18px;
+}

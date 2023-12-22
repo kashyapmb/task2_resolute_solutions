@@ -1,0 +1,101 @@
+.heading_this_component {
+	display: flex;
+	justify-content: center;
+	font-size: 2rem;
+}
+.heading_this_component h1{
+    margin: 0 0 4rem 0;
+
+}
+.img_set {
+	display: flex;
+	justify-content: center;
+}
+.center_div_this {
+	position: absolute;
+	display: flex;
+	justify-content: center;
+	padding: 0 10%;
+	gap: 30rem;
+}
+.left_component {
+	display: flex;
+	flex-direction: column;
+	gap: 2rem;
+	width: 30%;
+	text-align: right;
+}
+.right_component {
+	display: flex;
+	flex-direction: column;
+	gap: 2rem;
+	width: 30%;
+	text-align: left;
+}
+.btn_link_this {
+	cursor: pointer;
+	color: #7bcaff;
+	font-size: 0.9rem;
+}
+.btn_link_this span {
+	cursor: pointer;
+	display: inline-block;
+	position: relative;
+	transition: 0.5s;
+}
+.btn_link_this span:after {
+	content: ">";
+	position: absolute;
+	opacity: 1;
+	top: 0;
+	right: -10px;
+	transition: 0.3s;
+}
+.btn_link_this:hover span:after {
+	right: -18px;
+}
+.center_div_this .second_left {
+	margin-right: 3rem;
+}
+.center_div_this .third_left {
+	margin-right: 2rem;
+}
+.center_div_this .second_right {
+	margin-left: 3rem;
+}
+.center_div_this .third_right {
+	margin-left: 2rem;
+}
+.left_component h6,
+.right_component h6 {
+	font-weight: 600;
+	color: #042465;
+}
+.left_component h6,
+.right_component h6 {
+	font-weight: 600;
+}
+.desc_this {
+	opacity: 0.9;
+	font-size: 0.9rem;
+}
+.circle_animation {
+	width: 37%;
+	position: absolute;
+	z-index: -1;
+	background: black;
+	background-color: aqua;
+	animation: rotate 5s linear infinite;
+}
+.circle_logo {
+	width: 40%;
+}
+@keyframes rotate {
+	0% {
+		transform: rotate(0);
+	}
+
+	100% {
+		transform: rotate(360deg);
+	}
+}
