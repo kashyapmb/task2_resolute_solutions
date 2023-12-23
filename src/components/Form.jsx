@@ -9,8 +9,9 @@ function Form() {
 		<>
 			<div className="contact">
 				<div className="contact-tagline">
-					<h1 style={{ fontWeight: "800" }} className="bookDemo">
-						Book a Demo
+					<h1 className="bookDemo">
+						Book a<span class="single_space"></span>
+						<p className="green_underline">Demo</p>
 					</h1>
 				</div>
 				<div className="content">

@@ -1,11 +1,17 @@
 .heading_this_component {
 	display: flex;
 	justify-content: center;
-	font-size: 2rem;
 }
-.heading_this_component h1{
-    margin: 0 0 4rem 0;
-
+.heading_this_component h1 {
+	font-size: 2.4rem;
+	margin: 0 0 4rem 0;
+	font-family: "Avenir Next LT Pro - Demi";
+	color: #333333;
+}
+.heading_this_component h1 p {
+	font-size: 2.4rem;
+	font-family: "Avenir Next LT Pro - Demi";
+	color: #333333;
 }
 .img_set {
 	display: flex;
@@ -15,21 +21,22 @@
 	position: absolute;
 	display: flex;
 	justify-content: center;
+	margin-top: 1rem;
 	padding: 0 10%;
-	gap: 30rem;
+	gap: 33rem;
 }
 .left_component {
 	display: flex;
 	flex-direction: column;
 	gap: 2rem;
-	width: 30%;
+	width: 25%;
 	text-align: right;
 }
 .right_component {
 	display: flex;
 	flex-direction: column;
 	gap: 2rem;
-	width: 30%;
+	width: 25%;
 	text-align: left;
 }
 .btn_link_this {
@@ -58,26 +65,27 @@
 	margin-right: 3rem;
 }
 .center_div_this .third_left {
-	margin-right: 2rem;
+	margin-right: 1.4rem;
 }
 .center_div_this .second_right {
 	margin-left: 3rem;
 }
 .center_div_this .third_right {
-	margin-left: 2rem;
+	margin-left: 1.3rem;
 }
 .left_component h6,
 .right_component h6 {
-	font-weight: 600;
+	font-family: "Avenir Next LT Pro - Demi";
+	font-size: 1.15rem;
 	color: #042465;
 }
-.left_component h6,
-.right_component h6 {
-	font-weight: 600;
+.left_component div,
+.right_component div {
+	line-height: 1.2rem;
 }
 .desc_this {
 	opacity: 0.9;
-	font-size: 0.9rem;
+	font-size: 0.95rem;
 }
 .circle_animation {
 	width: 37%;

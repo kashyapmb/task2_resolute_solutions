@@ -4,25 +4,41 @@
 	justify-content: center;
 	align-items: center;
 	padding: 3rem 0 1rem 0;
-	font-size: 2.2rem;
-	font-weight: 600;
-	color: black;
+}
+.business_header h1 {
+	margin: 2rem 0;
+	font-size: 2.4rem;
+	color: #333333;
+
+	font-family: "Avenir Next LT Pro - Demi";
+}
+.business_header h1 p {
+	margin: 2rem 0;
+	font-size: 2.4rem;
+	color: #333333;
+
+	font-family: "Avenir Next LT Pro - Demi";
 }
 .card {
+	border: none;
+	border-radius: 1rem;
 	background-color: #f4faff;
 	padding: 2rem;
 }
 .card_container {
-	padding: 0 10rem;
+	padding: 0 8rem;
 }
 .tagline {
-	margin: 1rem 0 2rem 0;
-	font-weight: 700;
+	margin: 1.5rem 0 2rem 0;
+	font-size: 1.12rem;
+	font-family: "Avenir Next LT Pro - Demi";
 }
 .card_logo {
+	
 	padding: 0 0.5rem;
 }
 .card_logo_icon {
+	width: 37%;
 	border: 4px solid white;
 	border-radius: 50%;
 	box-shadow: 0px 0px 10px 1px rgba(0, 0, 0, 0.3);

@@ -8,7 +8,11 @@ function BusinessCard() {
 			<div className="container-fluid pb-5">
 				<div className="row">
 					<div className="col-12 business_header">
-						<p>Which Retail Businesses leverage the power of RePOS?</p>
+						<h1>
+							Which Retail Businesses leverage the power of
+							<span class="single_space"></span>
+							<p className="green_underline"> RePOS</p>?
+						</h1>
 					</div>
 				</div>
 				<div className="row card_container">

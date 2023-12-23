@@ -2,24 +2,31 @@
 	padding: 0 10rem;
 }
 .side_heading {
-	font-size: 2rem;
-	font-weight: 600;
+	font-family: "Avenir Next LT Pro - Demi";
+	color: #333333;
+	font-size: 2.5rem;
+	margin: 1rem 0;
+}
+.side_heading p{
+	font-family: "Avenir Next LT Pro - Demi";
+	color: #333333;
+	font-size: 2.5rem;
 }
 .side_content {
 	font-size: 0.9rem;
-	opacity: 0.8;
+	opacity: 0.9;
 	line-height: 1.3rem;
 }
 
 .btn_book_a_demo2 {
-	color: #002168;
-	border: 0.15rem solid #031d4c;
+	color: #0c0073;
+	border: 0.1rem solid #162867;
 	border-radius: 1rem 0 0 0;
 	width: 9rem;
 	padding: 0.4rem 1rem 0.4rem 1rem;
 	cursor: pointer;
-    font-weight: 700;
-    opacity: 1;
+	font-weight: 700;
+	opacity: 1;
 }
 .btn_book_a_demo2 span {
 	cursor: pointer;
@@ -39,7 +46,7 @@
 	right: -18px;
 }
 
-.display_img{
-    display: flex;
-    align-items: center;
+.display_img {
+	display: flex;
+	align-items: center;
 }

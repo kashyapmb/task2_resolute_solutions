@@ -1,38 +1,45 @@
 .main_component {
 	display: flex;
 	justify-content: center;
-    margin: 3rem 0 3rem 0;
+	margin: 3rem 0 3rem 0;
 }
 .component {
 	width: 80%;
 	background-image: url("/public/images/bg-2.png");
+	height: 100%;
+
 	border-radius: 1rem;
-    padding: 6% 0 4% 0;
+	padding: 6% 0 5% 0;
 }
 .details {
 	display: flex;
-    flex-direction: column;
-    align-items: center;
+	flex-direction: column;
+	align-items: center;
 	color: white;
 }
 .details {
 	display: flex;
-    flex-direction: column;
-    align-items: center;
+	flex-direction: column;
+	align-items: center;
 	color: white;
 }
-.large_text{
-    font-size: 2.3rem;
-    font-weight: 600;
+.large_text {
+	font-size: 2.5rem;
+	font-family: "Avenir Next LT Pro - Demi";
 }
-.btn_speak{
-    border: 2px solid white;
-    cursor: pointer;
-    margin-top: 1rem;
-    padding: 0.5rem 1.7rem 0.5rem 1rem;
-    border-radius: 1rem 0 0 0;
+.large_text p {
+	font-size: 2.5rem;
+	font-family: "Avenir Next LT Pro - Demi";
+}
+.btn_speak {
+	border: 2px solid white;
+	cursor: pointer;
+	margin-top: 1rem;
+	padding: 0.5rem 1.7rem 0.5rem 1rem;
+	border-radius: 1rem 0 0 0;
 }
 .btn_speak span {
+	font-family: "Avenir Next LT Pro - Demi";
 	cursor: pointer;
 	display: inline-block;
 	position: relative;

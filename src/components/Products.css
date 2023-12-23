@@ -6,9 +6,15 @@
 	justify-content: center;
     margin: 1rem 0;
 }
-.center_div p {
+.center_div h1 {
+	font-family: "Avenir Next LT Pro - Demi";
+	color: #333333;
 	font-size: 2.4rem;
-	font-weight: 600;
+}
+.center_div h1 p{
+	font-family: "Avenir Next LT Pro - Demi";
+	color: #333333;
+	font-size: 2.4rem;
 }
 .component_spacing {
 	padding: 0 3% 0 10%;
@@ -43,6 +49,7 @@
 }
 .description_sel p{
     margin: 1rem 0;
+	line-height: 1.5rem;
     font-size: 0.9rem;
     opacity: 0.9;
 }
@@ -54,4 +61,8 @@
     align-items: center;
     gap: 1rem;
     
+}
+.upper_text_bold{
+	font-size: 1.1rem;
+	font-family: "Avenir Next LT Pro - Demi";
 }

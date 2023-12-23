@@ -31,9 +31,10 @@ function Header() {
 									<div className="header_info">
 										<h1>
 											Transform your Retail Business with our advanced POS
-											Software
+											<span class="single_space"></span>
+											<p className="green_underline">Software</p>
 										</h1>
-										<p>
+										<p className="secondary_text">
 											Unlock the potential of seamless transactions, effortless
 											petty cash management, optimized inventory control, and
 											elevated customer experiences with our empowering retail

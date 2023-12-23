@@ -5,7 +5,10 @@ function FeatureSet() {
 	return (
 		<>
 			<div className="heading_this_component">
-				<h1>Explore our awesome Feature Set</h1>
+				<h1>
+					Explore our awesome Feature<span class="single_space"></span>
+					<p className="green_underline"> Set</p>
+				</h1>
 			</div>
 			<div className="component_FeatureSet">
 				<div className="image_animation">

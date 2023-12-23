@@ -1,12 +1,38 @@
 @font-face {
-  font-family: 'Avenir Next LT Pro Demi';
-  /* src: url('../public/font/AvenirLTProBlack.otf') format('opentype'); */
+	font-family: "Avenir Next LT Pro - Regular";
+	src: url("../public/font/AvenirNextLTPro-Regular.otf") format("opentype");
 }
-@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@500&display=swap');
+@font-face {
+	font-family: "Avenir Next LT Pro - Bold";
+	src: url("../public/font/AvenirNextLTPro-Bold.otf") format("opentype");
+}
+@font-face {
+	font-family: "Avenir Next LT Pro - BoldCn";
+	src: url("../public/font/AvenirNextLTPro-BoldCn.otf") format("opentype");
+}
+@font-face {
+	font-family: "Avenir Next LT Pro - Demi";
+	src: url("../public/font/AvenirNextLTPro-Demi.otf") format("opentype");
+}
+@font-face {
+	font-family: "Avenir Next LT Pro - It";
+	src: url("../public/font/AvenirNextLTPro-It.otf") format("opentype");
+}
+@import url("https://fonts.googleapis.com/css2?family=Montserrat:wght@500&display=swap");
 
 * {
 	margin: 0;
 	padding: 0;
 	box-sizing: border-box;
-	font-family: "Avenir Next LT Pro Demi", "Montserrat", sans-serif;
+	font-family: "Avenir Next LT Pro - Regular", "Montserrat", sans-serif;
+}
+
+.green_underline {
+	border-bottom: 8px solid #22e287;
+	display: inline-block;
+	line-height: 0.6;
+}
+.underlineText {
+	cursor: pointer;
+	border-bottom: 2px solid white;
 }

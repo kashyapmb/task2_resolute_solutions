@@ -9,7 +9,10 @@ function ReposInfo() {
 					<div className="col-12 Information">
 						<div className="row">
 							<div className="col-6">
-								<p className="side_heading">What is RePOS?</p>
+								<h1 className="side_heading">
+									What is<span class="single_space"></span>
+									<p className="green_underline">RePOS</p>?
+								</h1>
 								<div className="side_content">
 									<p>
 										RePOS, the cutting-edge retail POS software built to take

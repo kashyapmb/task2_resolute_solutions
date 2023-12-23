@@ -8,20 +8,14 @@
 	justify-content: center;
 }
 .contact .bookDemo {
-	position: relative;
-	z-index: 2;
+	font-family: "Avenir Next LT Pro - Demi";
+	color: #333333;
 	font-size: 2.3rem;
 }
-.contact .bookDemo::after {
-	content: "";
-	position: absolute;
-	left: 10%;
-	bottom: 16px;
-	width: 104px;
-	height: 8px;
-	transform: translateX(116%) translateY(120%);
-	background: #22e287;
-	z-index: -1;
+.contact .bookDemo p{
+	font-family: "Avenir Next LT Pro - Demi";
+	color: #333333;
+	font-size: 2.3rem;
 }
 .contact .content {
 	display: flex;

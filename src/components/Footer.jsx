@@ -1,5 +1,5 @@
 import logo from "../logo.svg"
-import './Footer.css'
+import "./Footer.css"
 import "../App.css"
 import "../../node_modules/bootstrap/dist/css/bootstrap.min.css"
 import { IoIosArrowForward } from "react-icons/io"
@@ -11,7 +11,6 @@ import { FaFacebook } from "react-icons/fa"
 import { FaLinkedin } from "react-icons/fa"
 import { FaInstagram } from "react-icons/fa"
 import { FaWhatsapp } from "react-icons/fa6"
-
 
 function Footer() {
 	return (
@@ -136,7 +135,10 @@ function Footer() {
 				</div>
 				<hr className="line" />
 				<div className="copyright">
-					<h6> © 2023 All Rights Reserved by Resolute Solutions.</h6>
+					<h6 style={{ display: "flex" }}>
+						© 2023 All Rights Reserved by <span class="single_space"></span>
+						<p className="underlineText"> Resolute Solutions </p> .
+					</h6>
 				</div>
 			</div>
 		</>

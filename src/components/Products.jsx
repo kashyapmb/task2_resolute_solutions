@@ -8,7 +8,10 @@ function Products() {
 			<div className="container-fluid full_component">
 				<div className="row ">
 					<div className="col-12 center_div">
-						<p>Our Products</p>
+						<h1>
+							Our<span class="single_space"></span>
+							<p className="green_underline">Products</p>
+						</h1>
 					</div>
 				</div>
 
@@ -19,7 +22,7 @@ function Products() {
 							style={{ border: num == 1 ? "2px solid #002365" : "hidden" }}
 							className="selection_div"
 						>
-							<h6>RePOS</h6>
+							<h6 className="upper_text_bold">RePOS</h6>
 							<h6 className="down_text">Retail POS Solution</h6>
 						</div>
 						<div
@@ -27,7 +30,7 @@ function Products() {
 							style={{ border: num == 2 ? "2px solid #002365" : "hidden" }}
 							className="selection_div"
 						>
-							<h6>Android RePOS</h6>
+							<h6 className="upper_text_bold">Android RePOS</h6>
 							<h6 className="down_text">Retail Android POS Solution</h6>
 						</div>
 						<div
@@ -35,7 +38,7 @@ function Products() {
 							style={{ border: num == 3 ? "2px solid #002365" : "hidden" }}
 							className="selection_div"
 						>
-							<h6>ReAnalyse</h6>
+							<h6 className="upper_text_bold">ReAnalyse</h6>
 							<h6 className="down_text">Mobile Reporting App</h6>
 						</div>
 					</div>
@@ -46,7 +49,7 @@ function Products() {
 								{num == 2 && <img src="/images/2.png" className="img-fluid" />}
 								{num == 3 && <img src="/images/3.png" className="img-fluid" />}
 							</div>
-							<div className="col-5 description_sel">
+							<div className="col-4 description_sel">
 								{num == 1 && (
 									<div>
 										<img src="/images/1_logo.png" className="img-fluid" />
